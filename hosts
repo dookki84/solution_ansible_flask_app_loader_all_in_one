@@ -1,9 +1,9 @@
 [load_balancers]
-frontend1
+frontend1 ansible_host=frontend1.3cde.internal
 
 [app_servers]
-app1
-app2
+app1 ansible_host=app1.3cde.internal
+app2 ansible_host=app2.3cde.internal
 
 [database_servers]
-appdb1
+appdb1 ansible_host=appdb1.3cde.internal
